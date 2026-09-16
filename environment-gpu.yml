@@ -1,0 +1,30 @@
+name: fact-ai-gpu
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - ipykernel
+  - notebook
+  - pip
+  - pip:
+      - einops
+      - transformers
+      - jaxtyping
+      - pandas
+      - datasets
+      - wandb
+      - accelerate
+      - bidict
+      - nnsight
+      - kornia
+      - matplotlib
+      - codecarbon
+      - seaborn
+      - plotly
+      - scipy
